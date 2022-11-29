@@ -9,12 +9,7 @@ const Footer = () => {
       label: "Discord",
       link: "https://discord.com/invite/eK3NPaZ7zz?fbclid=IwAR1jsRgsiyLcjkqARD2n9fiJPVrI64quq0Fxixcby8QlQh18cntm5YBbo2Q",
     },
-    {
-      id: 2,
-      imgUrl: "/assets/icons/Socmed/Email.svg",
-      label: "Email",
-      link: "learnaurora@gmail.com",
-    },
+
     {
       id: 3,
       imgUrl: "/assets/icons/Socmed/Facebook.svg",
@@ -72,7 +67,7 @@ const Footer = () => {
             width={200}
             alt="Learn Aurora"
           />
-          <div className="flex flex-wrap justify-center items-center">
+          <div className="flex flex-wrap justify-center items-center gap-3">
             {socmed.map(({ imgUrl, link }) => {
               return (
                 <Link href={link}>
@@ -108,7 +103,7 @@ const Footer = () => {
               type="text"
               className="px-0 py-1 leading-2 text-left bg-[transparent]
 													 text-white placeholder-gray-600 border-4 border-transparent rounded-md text-xl"
-              placeholder="Rodolph"
+              placeholder="Belinda"
             />
 
             <h1 className="font-[montserrat] font-semibold tracking-widest text-2xl mt-5">
