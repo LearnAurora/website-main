@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: montserrat;
+  src: url("../public/assets/font/Montserrat-VariableFont_wght.ttf");
+}
+
+body {
+  background-image: url("../public/bg/background.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  user-select: none;
+}
+
+#textgradient {
+  background: -webkit-linear-gradient(left, #dff945, #71ee59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#onClick:focus {
+  background: -webkit-linear-gradient(left, #dff945, #71ee59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #09191e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #daf946;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #73ee58;
+}
+
+#comingsoon {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.1px);
+  -webkit-backdrop-filter: blur(8.1px);
+  border: 1px solid rgba(255, 255, 255, 0.41);
+}
+
+.border-gradient {
+  background: -webkit-linear-gradient(right, #00c853, #b2ff59);
+}
+
+.mySwiperTeam {
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 80%,
+    transparent 95%
+  );
+}
+
+.mySwiperRoadmap {
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  padding: 12px 5px;
+  box-sizing: border-box;
+  border-bottom: 3px solid #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-bottom: 3px solid #555;
+}
+
+#message {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.1px);
+  -webkit-backdrop-filter: blur(8.1px);
+  border: 1px solid rgba(255, 255, 255, 0.41);
+}
