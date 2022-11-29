@@ -50,7 +50,7 @@ const Footer = () => {
       id: 9,
       imgUrl: "/assets/icons/Socmed/Youtube.svg",
       label: "Youtube",
-      link: "https://youtube.com/@learnauroraofficial",
+      link: "https://www.youtube.com/@learnauroraofficial",
     },
   ];
   return (
