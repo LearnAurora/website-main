@@ -9,6 +9,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Pagination, Navigation } from "swiper";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 const Guides = () => {
   const [slideCount, setSlideCount] = useState(1);
@@ -55,26 +56,28 @@ const Guides = () => {
           data-aos-duration="1000"
         >
           <SwiperSlide className="bg-[#1a373d]/50 rounded-md p-5 flex flex-col mySwiperTeam-slide gap-2">
-            <div className="border-gradient p-1 w-auto h-auto">
-              <Image
-                src="/assets/images/WILA.png"
-                height={500}
-                width={500}
-                alt="what is learn aurora?"
-              />
-            </div>
-            <p className="text-left">November 2, 2022</p>
-            <h1 className="font-semibold text-lg">
-              Introduction to Learn Aurora
-            </h1>
-            <div className="flex justify-end">
-              <Image
-                src="/assets/icons/right-arrow.svg"
-                height={20}
-                width={20}
-                alt="what is learn aurora?"
-              />
-            </div>
+            <Link href="https://medium.com/@learnaurora/what-is-learn-aurora-844b7c94cfc9">
+              <div className="border-gradient p-1 w-auto h-auto">
+                <Image
+                  src="/assets/images/WILA.png"
+                  height={500}
+                  width={500}
+                  alt="what is learn aurora?"
+                />
+              </div>
+              <p className="text-left">November 2, 2022</p>
+              <h1 className="font-semibold text-lg">
+                Introduction to Learn Aurora
+              </h1>
+              <div className="flex justify-end">
+                <Image
+                  src="/assets/icons/right-arrow.svg"
+                  height={20}
+                  width={20}
+                  alt="what is learn aurora?"
+                />
+              </div>
+            </Link>
           </SwiperSlide>
         </Swiper>
       </div>

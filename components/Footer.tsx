@@ -7,7 +7,7 @@ const Footer = () => {
       id: 1,
       imgUrl: "/assets/icons/Socmed/Discord.svg",
       label: "Discord",
-      link: "https://discord.gg/HVhQf4xW5Y",
+      link: "https://discord.com/invite/eK3NPaZ7zz?fbclid=IwAR1jsRgsiyLcjkqARD2n9fiJPVrI64quq0Fxixcby8QlQh18cntm5YBbo2Q",
     },
     {
       id: 2,
