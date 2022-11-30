@@ -11,8 +11,10 @@ body {
   background-image: url("../public/bg/background.webp");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 100vh;
+  background-size: cover;
+  background-position: center;
   user-select: none;
+  object-fit: fill;
   overflow-x: hidden;
 }
 
