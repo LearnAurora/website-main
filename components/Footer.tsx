@@ -26,7 +26,7 @@ const Footer = () => {
       id: 5,
       imgUrl: "/assets/icons/Socmed/LinkedIn.svg",
       label: "LinkedIn",
-      link: "https://www.linkedin.com/company/learn-aurora-club",
+      link: "https://linkedin.com/company/learn-aurora-official",
     },
     {
       id: 6,
