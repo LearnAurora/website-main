@@ -65,7 +65,7 @@ const Guides = () => {
                   alt="what is learn aurora?"
                 />
               </div>
-              <p className="text-left">November 2, 2022</p>
+              <p className="text-left">November 22, 2022</p>
               <h1 className="font-semibold text-lg">
                 Introduction to Learn Aurora
               </h1>
