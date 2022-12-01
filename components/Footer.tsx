@@ -38,7 +38,7 @@ const Footer = () => {
       id: 7,
       imgUrl: "/assets/icons/Socmed/Telegram.svg",
       label: "Telegram",
-      link: "https://t.me/+SlnSP7Qpe7YxYmFl",
+      link: "https://t.me/LearnAuroraOfficial",
     },
     {
       id: 8,
